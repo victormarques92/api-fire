@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+* {
+    outline: none;
+}
+
+body {
+    background-color: #babaca;
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+#box-fipe {
+    background-color: rgba(0, 0, 0, .5);
+    width: 460px;
+    border: 1px solid #222;
+    border-radius: 3px;
+    box-shadow: 0 0 20px 0 #666;
+}
+
+#box-fipe .formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+#box-fipe .formulario select {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#box-fipe .formulario button {
+    background-color: #42b983;
+    padding: 15px;
+    width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #ddd;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 3px solid #328a62;
+    transition: .25s ease all;
+}
+
+#box-fipe .formulario button:hover {
+    background-color: #328a62;
+    width: 215px;
+}
